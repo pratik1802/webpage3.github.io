@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.main{
+    border:1px solid rebeccapurple;
+    height: 100vh;
+    background-image: url(../images/footsteps-3938563_1920.jpg);
+    display: flex;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+}
+
+.lefti img{
+           
+    height: 150px;
+    width: 150px;
+    padding: 1.5rem;
+    
+}
+.right ul {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 20rem;
+            height: 12vh;
+}
+.right ul li{
+    list-style: none;
+    transition: all ease .3s;
+    text-decoration: none;
+
+}
+.right ul li a{
+    border: 2px solid white ;
+    border-radius: 5px 5px 12px 12px;
+    font-size: 1.1rem;
+    color:azure ;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+}
+ul li a:hover{
+    background-color: blueviolet;
+    color:black;
+}
+.title{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    font-size:70px;
+    color:white;
+}
+.button1{   
+    position:absolute;
+    top:60%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.btn {
+    border: 1px solid wheat;
+    font-size:30px;
+    padding:10px 30px;
+    color:wheat;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: chartreuse;
+    color:rgb(20, 75, 178);
+}
